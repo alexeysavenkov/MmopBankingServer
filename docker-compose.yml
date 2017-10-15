@@ -1,0 +1,7 @@
+version: '2.1'
+services:
+
+  builder:
+    image: uvatbc/qt:qt5 #hadim/docker-qt
+    volumes:
+      - ./:/src
